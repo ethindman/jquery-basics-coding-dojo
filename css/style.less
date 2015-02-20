@@ -1,6 +1,21 @@
+// color palettes
+
+@lightblue: #44BBFF;
+@lightorange: #F6B42C;
+@lightgreen: #AAD450;
+@lightpink: #F27490;
+@navyblue: #334455;
+
+// ************
+
 * {
 	maring: 0px;
 	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
 }
 
 div {
@@ -8,4 +23,24 @@ div {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     min-height: 50px;
+    background: #DDD;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+button {
+	border: none;
+	padding: 10px 25px;
+	border-radius: 4px;
+	cursor: pointer;
+	color: white;
+	background: @navyblue;
+	margin: 10px;
+	font-weight: 500;
+}
+
+button:hover {
+	background: @lightblue;
 }
