@@ -1,9 +1,9 @@
 .attr
 .before
 .html
-// .text
-.val
-.toggle
+.text
+// .val
+// .toggle
 // .hide
 // .show
 .slideDown
@@ -11,6 +11,6 @@
 .slideUp
 .fadeOut
 .fadeIn
-.focus
+// .focus
 .click90
-.append
+// .append

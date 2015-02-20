@@ -18,6 +18,10 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+div, img, button {
+	border-radius: 4px;
+}
+
 div {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -26,21 +30,55 @@ div {
     background: #DDD;
     margin: 10px;
     text-align: center;
-    border-radius: 5px;
     padding: 20px;
+}
+
+div.col-33 {
+	display: inline-block;
+	vertical-align: top;
+	background: #EEE;
+	width: 30%;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	max-height: 350px;
+	max-width: 525px;
+}
+
+p {
+	padding: 0px 15%;
 }
 
 button {
 	border: none;
 	padding: 10px 25px;
-	border-radius: 4px;
 	cursor: pointer;
 	color: white;
-	background: @navyblue;
-	margin: 10px;
+	margin: 10px 0px;
 	font-weight: 500;
+	background: @navyblue;
+	-webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline:none;
+  text-transform: uppercase;
 }
 
 button:hover {
 	background: @lightblue;
+}
+
+input {
+	padding: 8px;
+}
+
+h3.pink {
+	color: @lightpink;
+}
+
+h3.light-green {
+	color: @lightgreen;
 }
