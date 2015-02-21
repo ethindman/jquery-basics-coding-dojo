@@ -1,6 +1,9 @@
+.addClass
+.after
+// .append
 .attr
 .before
-.html
+// .html
 .text
 // .val
 // .toggle
@@ -9,8 +12,7 @@
 .slideDown
 .slideToggle
 .slideUp
-.fadeOut
-.fadeIn
+// .fadeOut
+// .fadeIn
 // .focus
-.click90
-// .append
+// .click
